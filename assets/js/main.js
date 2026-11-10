@@ -40,7 +40,7 @@
 
   /* hero slides */
   var slides=$$('.slide');
-  if(slides.length){
+  if(slides.length>1){
     var cap=$('.hero-cap'),dots=$$('.dots button'),cur=0,timer;
     function show(i){
       cur=(i+slides.length)%slides.length;
