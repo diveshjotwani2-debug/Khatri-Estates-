@@ -24,7 +24,12 @@
 <div class="hero-copy"><span class="eyebrow">Khatri Estates, Bhubaneswar</span>
 <h1>Discover a place<br>to call your own.</h1>
 <p class="lede">Explore thoughtfully selected properties and residential opportunities in Bhubaneswar.</p>
-<div><a class="btn" href="properties.html">Explore properties</a></div></div>
+<form class="hsearch" action="properties.html" method="get" aria-label="Search properties">
+<div class="fld"><label for="h-type">Type</label><select id="h-type" name="type"><option value="all">All types</option><option value="plot">Commercial land</option><option value="flat">3 BHK flat</option></select></div>
+<div class="fld"><label for="h-loc">Location</label><select id="h-loc" name="loc"><option value="all">All locations</option><option value="phulnakhara">Phulnakhara</option><option value="irc-village">IRC Village, Nayapalli</option><option value="sundarpada">Sundarpada</option><option value="satyanagar">Satyanagar</option></select></div>
+<div class="fld"><label for="h-price">Price</label><select id="h-price" name="price"><option value="all">Any price</option><option value="a">Up to ₹1 Cr</option><option value="b">₹1 Cr to ₹2 Cr</option><option value="c">Above ₹2 Cr</option></select></div>
+<button class="btn" type="submit">Search</button></form>
+<div class="quick"><span>Browse by area</span><a href="location-phulnakhara.html">Phulnakhara</a><a href="location-irc-village.html">IRC Village</a><a href="location-sundarpada.html">Sundarpada</a><a href="location-satyanagar.html">Satyanagar</a></div></div>
 <div class="hero-media"><div class="slide on"><img src="assets/img/hero-house.webp" width="1672" height="941" alt="A modern two storey home at dusk with a timber gate and landscaped garden"></div></div>
 </section>
 
@@ -32,7 +37,11 @@
 <span class="eyebrow rv">Who we are</span>
 <div class="rv"><p class="big">Khatri Estates is a Bhubaneswar broker agency helping both buyers and sellers make the right move.</p>
 <div class="more"><a class="link" href="about.html">About Khatri Estates</a></div></div>
-</div></section>
+</div>
+<div class="wrap" style="margin-top:clamp(40px,5vw,72px)"><div class="trio rv">
+<div><h3>Experience</h3><p>Years of business understanding.</p></div>
+<div><h3>Relationships</h3><p>Built through genuine dealings.</p></div>
+<div><h3>Reliability</h3><p>A reputation earned transaction by transaction.</p></div></div></div></section>
 
 <section class="sec paper" aria-labelledby="feat"><div class="wrap">
 <div class="head"><div><span class="eyebrow">Properties</span><h2 id="feat">Featured properties</h2></div>
@@ -52,16 +61,22 @@
 <div class="row"><span class="price"><small>Price</small>₹2 Crore</span><span class="go">Explore</span></div></div></a></div>
 </div></section>
 
-<section class="sec" aria-labelledby="locs"><div class="wrap">
+<section class="sec" aria-labelledby="films"><div class="wrap">
+<div class="head"><div><span class="eyebrow">Videos</span><h2 id="films">See the properties on video.</h2></div><a class="link" href="properties.html">All properties</a></div>
+<div class="films"><div class="film rv"><button type="button" data-video="assets/video/plot.mp4" aria-label="Play video: Commercial Plot, Phulnakhara"><img src="assets/img/plot-1.webp" alt="" loading="lazy" decoding="async"><span class="pl">Play video</span></button><div class="fc"><span class="loc">Phulnakhara</span><h3>Commercial land</h3><a class="link" href="property-phulnakhara.html">View details</a></div></div><div class="film rv"><button type="button" data-video="assets/video/irc.mp4" aria-label="Play video: 3 BHK Flat, IRC Village"><img src="assets/img/irc-3.webp" alt="" loading="lazy" decoding="async"><span class="pl">Play video</span></button><div class="fc"><span class="loc">IRC Village, Nayapalli</span><h3>3 BHK flat</h3><a class="link" href="property-irc-village.html">View details</a></div></div><div class="film rv"><button type="button" data-video="assets/video/sun.mp4" aria-label="Play video: 3 BHK Flat, Sundarpada"><img src="assets/img/sun-1.webp" alt="" loading="lazy" decoding="async"><span class="pl">Play video</span></button><div class="fc"><span class="loc">Sundarpada</span><h3>3 BHK flat</h3><a class="link" href="property-sundarpada.html">View details</a></div></div><div class="film rv"><button type="button" data-video="assets/video/sat.mp4" aria-label="Play video: 3 BHK Flat, Satyanagar"><img src="assets/img/sat-1.webp" alt="" loading="lazy" decoding="async"><span class="pl">Play video</span></button><div class="fc"><span class="loc">Satyanagar</span><h3>3 BHK flat</h3><a class="link" href="property-satyanagar.html">View details</a></div></div></div></div></section>
+
+<section class="sec paper" aria-labelledby="locs"><div class="wrap">
 <div class="head"><div><span class="eyebrow">Locations</span><h2 id="locs">Where we have properties</h2></div><a class="link" href="locations.html">All locations</a></div>
 <div class="locs"><a class="loc-t rv" href="location-phulnakhara.html"><div class="ph"><img src="assets/img/plot-cover.webp" width="1199" height="1312" alt="Phulnakhara, Bhubaneswar" loading="lazy" decoding="async"></div><h3>Phulnakhara</h3><p>Commercial land</p></a><a class="loc-t rv" href="location-irc-village.html"><div class="ph"><img src="assets/img/irc-cover.webp" width="1199" height="1312" alt="IRC Village, Nayapalli, Bhubaneswar" loading="lazy" decoding="async"></div><h3>IRC Village, Nayapalli</h3><p>3 BHK flat</p></a><a class="loc-t rv" href="location-sundarpada.html"><div class="ph"><img src="assets/img/sun-cover.webp" width="1199" height="1312" alt="Sundarpada, Bhubaneswar" loading="lazy" decoding="async"></div><h3>Sundarpada</h3><p>3 BHK flat</p></a><a class="loc-t rv" href="location-satyanagar.html"><div class="ph"><img src="assets/img/sat-cover.webp" width="1199" height="1312" alt="Satyanagar, Bhubaneswar" loading="lazy" decoding="async"></div><h3>Satyanagar</h3><p>3 BHK flat</p></a></div></div></section>
 
 <section class="sec forest on-dark"><div class="wrap band">
-<h2 class="rv">Today, we help you find the right property. Tomorrow, we aim to build it.</h2>
-<div class="rv"><p>Khatri Estates carries the experience, relationships and reliability of Khatri Multi Supply into real estate.</p><a class="btn light" href="about.html">Our story</a></div>
+<div class="rv"><h2>Today, we help you find the right property. Tomorrow, we aim to build it.</h2>
+<p style="margin-top:28px">Khatri Estates carries the experience, relationships and reliability of Khatri Multi Supply into real estate.</p><a class="btn light" href="about.html">Our story</a></div>
+<figure class="bimg rv"><img src="assets/img/hero-house.webp" width="1672" height="941" alt="A modern two storey home at dusk" loading="lazy" decoding="async"></figure>
 </div></section>
-<section class="sec paper"><div class="wrap cta rv"><div><span class="eyebrow">Enquire</span><h2 style="margin-top:14px">Tell us what you are looking for.</h2></div>
-<div class="acts"><a class="btn" href="contact.html">Enquire Now</a><a class="btn ghost" data-channel data-ig="Message on Instagram" data-wa="Message on WhatsApp" href="https://ig.me/m/khatriestates" target="_blank" rel="noopener">Message on Instagram</a></div></div></section>
+<section class="sec paper"><div class="wrap ctasplit rv"><div class="ctx"><span class="eyebrow">Enquire</span><h2 style="margin-top:14px">Tell us what you are looking for.</h2><p class="lede" style="margin-top:20px">Share your requirement, budget and preferred area. We will come back with properties that fit, and can arrange a site visit.</p>
+<div class="acts"><a class="btn" href="contact.html">Enquire Now</a><a class="btn ghost" data-channel data-ig="Message on Instagram" data-wa="Message on WhatsApp" href="https://ig.me/m/khatriestates" target="_blank" rel="noopener">Message on Instagram</a></div></div>
+<figure class="cimg"><img src="assets/img/irc-cover.webp" width="1199" height="1312" alt="Living room of a 3 BHK flat" loading="lazy" decoding="async"></figure></div></section>
 </main>
 <footer class="ftr"><div class="wrap">
 <div class="cols">

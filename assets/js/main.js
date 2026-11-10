@@ -75,6 +75,7 @@
     var q=new URLSearchParams(location.search);
     if(q.get('type'))state.kind=q.get('type');
     if(q.get('loc'))state.loc=q.get('loc');
+    if(q.get('price'))state.price=q.get('price');
     var segs=$$('.seg button'),ls=$('#f-loc'),ps=$('#f-price'),cnt=$('#count'),em=$('#empty');
     function match(c){
       var cr=parseFloat(c.getAttribute('data-cr'));
